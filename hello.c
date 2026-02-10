@@ -2,7 +2,7 @@
 
 void main()
 {
-	printf("hello world from nandini!\n");
+	printf("hello world from nandini$!\n");
 }
 
 
