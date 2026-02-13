@@ -44,6 +44,8 @@ int main()
         {
                 printf("%d, ", Odd[i]);
         }
+
+
 	printf("\n");
 
 
