@@ -5,7 +5,8 @@ int main()
 	sum=a+b;
 	printf("sum=%d\n",sum);
 	printf("product=%d\n",a*b);
-	printf("division=%d",a/b);
+	printf("division=%d\n",a/b);
+	printf("mod=%d\n",a%b);
 }
 	
 
