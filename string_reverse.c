@@ -22,5 +22,5 @@ int main()
 	printf("enetr the string\n");
 	scanf("%s",str);
 	str_reverse(str);
-	printf("%s",str);
+	printf("reversed string=%s",str);
 }
