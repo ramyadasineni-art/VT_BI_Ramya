@@ -18,10 +18,7 @@ int main()
     int choice, data;
 while(1)
 {
-    printf("1. Add node at last\n");
-    printf("2. Delete middle node\n");
-    printf("3. Print list\n");
-    printf("4.exit");
+    printf("1. Add node at last\n 2.Delete middle node\n 3.print list\n 4. exit\n");
     scanf("%d", &choice);
 
     switch(choice)
