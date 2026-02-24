@@ -1,0 +1,125 @@
+From b45d87d124c1b3dc14933fc3240ffdc37bbfd88f Mon Sep 17 00:00:00 2001
+From: Aravind Reddy <aravindreddy.dondapati@votarytech.com>
+Date: Fri, 13 Feb 2026 15:12:16 +0530
+Subject: [PATCH 2/2] this commit used with cherrypic
+
+---
+ a.out                    | Bin 0 -> 8464 bytes
+ reverse_array_elements.c |  36 ++++++++++++++++++++++++++++++++++++
+ 2 files changed, 36 insertions(+)
+ create mode 100755 a.out
+ create mode 100644 reverse_array_elements.c
+
+diff --git a/a.out b/a.out
+new file mode 100755
+index 0000000000000000000000000000000000000000..d1e56fe1b089d043fccb6be68dcb30d3b845fbf0
+GIT binary patch
+literal 8464
+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
+
+literal 0
+HcmV?d00001
+
+diff --git a/reverse_array_elements.c b/reverse_array_elements.c
+new file mode 100644
+index 0000000..2350bce
+--- /dev/null
++++ b/reverse_array_elements.c
+@@ -0,0 +1,36 @@
++
++#include<stdio.h>
++
++int main()
++{
++	int size;
++	printf("Enter the size: ");
++	scanf("%d", &size);
++
++	int arr[size];
++	printf("Enter array elements: ");
++
++	for(int i = 0; i < size; i++)
++	{
++		scanf("%d", &arr[i]);
++	}
++
++	int start = 0, end = size - 1;
++
++	while(start < end)
++	{
++		int temp = arr[start];
++		arr[start] = arr[end];
++		arr[end] = temp;
++		start++;
++		end--;
++	}
++
++	for(int i = 0; i < size; i++)
++	{
++		printf("%d, ", arr[i]);
++	}
++
++	printf("\n");
++	return 0;
++}
+-- 
+2.17.1
+

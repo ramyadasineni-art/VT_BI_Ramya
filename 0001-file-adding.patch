@@ -1,0 +1,78 @@
+From d66dfe0afca75c0a5a5514b4520cd2369799f03d Mon Sep 17 00:00:00 2001
+From: Aravind Reddy <aravindreddy.dondapati@votarytech.com>
+Date: Fri, 13 Feb 2026 12:30:47 +0530
+Subject: [PATCH 1/2] file adding
+
+---
+ copy_odd_and_even_elements.c | 59 ++++++++++++++++++++++++++++++++++++
+ 1 file changed, 59 insertions(+)
+ create mode 100644 copy_odd_and_even_elements.c
+
+diff --git a/copy_odd_and_even_elements.c b/copy_odd_and_even_elements.c
+new file mode 100644
+index 0000000..213669a
+--- /dev/null
++++ b/copy_odd_and_even_elements.c
+@@ -0,0 +1,59 @@
++
++#include<stdio.h>
++
++int main()
++{
++	int size, even = 0, odd = 0;
++	printf("Enter the size: ");
++	scanf("%d", &size);
++
++	int arr[size];
++	printf("Enter array elements: ");
++	for(int i = 0; i < size; i++)
++	{
++		scanf("%d", &arr[i]);
++	}
++	
++        
++	int Even[size], Odd[size];
++	for(int i = 0; i < size; i++)
++	{
++		if(arr[i]%2 == 0)
++		{
++			Even[even] = arr[i];
++			even++;
++		}
++		else
++		{
++			Odd[odd] = arr[i];
++			odd++;
++		}
++	}
++
++	printf("Even array elements: ");
++	
++	for(int i = 0; i < even; i++)
++	{
++		printf("%d, ", Even[i]);
++	}
++	printf("\n");
++
++	printf("Odd array elements: ");
++
++	for(int i = 0; i < odd; i++)
++        {
++                printf("%d, ", Odd[i]);
++        }
++
++
++	printf("\n");
++
++
++	return 0;
++}
++
++		
++
++
++
++
+-- 
+2.17.1
+
