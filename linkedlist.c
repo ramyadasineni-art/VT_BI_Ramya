@@ -72,7 +72,7 @@ struct node* delete_middle(struct node *head)
 	struct node *slow = head;
 	struct node *prev = NULL;
 	
-	while(fast->next != NULL)		// trqaverse till the middle node.
+	while(fast->next != NULL && fast != NULL)		// trqaverse till the middle node.
 						// the middle node is slow.
 	{
 		fast = fast->next->next;
